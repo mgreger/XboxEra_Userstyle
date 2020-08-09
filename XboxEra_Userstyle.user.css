@@ -4,7 +4,7 @@
 @homepageURL    https://github.com/mgreger/XboxEra_Userstyle
 @supportURL     https://github.com/mgreger/XboxEra_Userstyle/issues
 @updateURL      https://raw.githubusercontent.com/mgreger/XboxEra_Userstyle/master/XboxEra_Userstyle.user.css
-@version        1.1.7
+@version        1.1.8
 @description    A custom theme for the XboxEra forums.
 @author         mgreger
 @license        CC0-1.0
@@ -413,7 +413,8 @@
         border: 0;
         border-left: 5px solid var(--primary-accent);
     }
-    .quote > blockquote .title {
+    .quote > blockquote .title,
+    .quote aside .quote, .quote aside .title, .quote aside blockquote, .quote aside .onebox, .quote aside .onebox-result {
         background-color: var(--secondary-highlight);
      }
     .moderator .regular>.cooked {
