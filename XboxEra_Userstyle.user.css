@@ -508,4 +508,20 @@
         border: 1px solid var(--primary-border);
         max-width: 100%;
     }
+    /* SCROLL BAR */
+    ::-webkit-scrollbar {
+      width: 15px;
+    }
+    /* Track */
+    ::-webkit-scrollbar-track {
+      background: rgb(28, 30, 31); 
+    }
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background: #2a2c2e; 
+    }
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background: rgb(47, 52, 61); 
+    }
 }
