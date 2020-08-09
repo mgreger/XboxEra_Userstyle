@@ -4,7 +4,7 @@
 @homepageURL    https://github.com/mgreger/XboxEra_Userstyle
 @supportURL     https://github.com/mgreger/XboxEra_Userstyle/issues
 @updateURL      https://raw.githubusercontent.com/mgreger/XboxEra_Userstyle/master/XboxEra_Userstyle.user.css
-@version        1.0.5
+@version        1.0.6
 @description    A custom theme for the XboxEra forums.
 @author         mgreger
 @license        CC0-1.0
@@ -304,7 +304,7 @@
     }
     .timeline-container {
         margin-left: 81% !important;
-        background: var(--primary-background) !important;
+        background-color: var(--primary-background) !important;
         border: 1px solid var(--primary-border);
     }
     .timeline-container .topic-timeline {
@@ -317,6 +317,9 @@
     .timeline-container.timeline-docked {
         background-color: transparent !important;
         border: 0;
+    }
+    .meta {
+        background-color: var(--primary-highlight);
     }
     .small-action {
         border-top: unset;
