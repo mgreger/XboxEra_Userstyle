@@ -17,10 +17,9 @@ Three custom options available:
 
 If you do not have Stylish, you can install it below for the following browsers:
 
-Stylus for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)
+Stylus for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/), [Chromium](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) or [Opera](https://addons.opera.com/en-gb/extensions/details/stylus/).
 ## Preview
 ![XboxEra Preview](https://raw.githubusercontent.com/mgreger/XboxEra_Userstyle/master/Images/XboxEra-preview.png)
 ![XboxEra Preview 2](https://raw.githubusercontent.com/mgreger/XboxEra_Userstyle/master/Images/XboxEra-preview-2.png)
 ![XboxEra Preview 3](https://raw.githubusercontent.com/mgreger/XboxEra_Userstyle/master/Images/XboxEra-preview-3.png)
 ![XboxEra Preview 4](https://raw.githubusercontent.com/mgreger/XboxEra_Userstyle/master/Images/XboxEra-preview-4.png)
-, [Chromium](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) or [Opera](https://addons.opera.com/en-gb/extensions/details/stylus/).
