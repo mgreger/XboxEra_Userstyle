@@ -1,5 +1,6 @@
 # XboxEra_Userstyle
 A custom theme for the XboxEra forums.
+Make sure the default forum theme is set to whichever custom option I provide (Both site and custom theme set to Light or Dark. Do not mix them.)
 ## Installation
 
 [![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-285959.svg)](https://raw.githubusercontent.com/mgreger/XboxEra_Userstyle/master/XboxEra_Userstyle.user.css)
