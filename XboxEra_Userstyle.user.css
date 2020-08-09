@@ -4,7 +4,7 @@
 @homepageURL    https://github.com/mgreger/XboxEra_Userstyle
 @supportURL     https://github.com/mgreger/XboxEra_Userstyle/issues
 @updateURL      https://raw.githubusercontent.com/mgreger/XboxEra_Userstyle/master/XboxEra_Userstyle.user.css
-@version        1.1.2
+@version        1.1.3
 @description    A custom theme for the XboxEra forums.
 @author         mgreger
 @license        CC0-1.0
@@ -16,26 +16,36 @@
         --header-background: #252628;
         --primary-accent: #2ca148;
         --primary-border: #444444;
+        --secondary-border: #312f2f;
         --primary-background: #222222;
         --secondary-background: #282828;
         --primary-highlight: #1b1b1b;
         --secondary-highlight: #282727;
+        --tertiary-highlight: #464646;
+        --alt-accent: #312f2f;
         --primary-topic: #252628;
         --primary-font: #cccccc;
-        --secondary-font: #999999;  
+        --secondary-font: #999999;
+        --tertiary-font: #707070;
+        --alt-font: #dbdada; 
     }`,
     "Light": `:root {
         --site-background: #EEEEEE;
         --header-background: #252628;
         --primary-accent: #2ca148;
         --primary-border: #d6d4d4;
+        --secondary-border: #e9e9e9;
         --primary-background: #FBFBFB;
         --secondary-background: #FFFFFF;
         --primary-highlight: #f2f1f1;
         --secondary-highlight: #f8f8f8;
+        --tertiary-highlight: #f2f1f1;
+        --alt-accent: #e9e9e9;
         --primary-topic: #FFFFFF;
         --primary-font: #222222;
-        --secondary-font: #999999;  
+        --secondary-font: #222222;
+        --tertiary-font: #919191;
+        --alt-font: #dbdada; 
     }`
 }
 @var select hideBanners "Forum Banners" {
@@ -163,7 +173,7 @@
             margin: 0px 0px 10px; 
         }
         .topic-map {
-             margin: 10px 0px 10px 5px;
+            margin: 10px 0px 10px 5px;
         } 
         .topic-post {
             border-left: 0 !important;
@@ -286,6 +296,9 @@
         padding-left: 10px;
     }
     /*THREAD VIEW*/
+    #topic-title h1 a {
+        color: var(--alt-font);
+    }
     .topic-body.highlighted {
         animation: unset;
     }
@@ -300,6 +313,19 @@
         width: calc(100% - 60px);
         border-top: unset;
         /*font-size: 13px;*/
+    }
+    .topic-map {
+        background-color: var(--secondary-highlight);
+        border: 1px solid var(--secondary-border);
+    } 
+    .topic-map .buttons .btn {
+        background-color: var(--tertiary-highlight);
+        border-left: 1px solid var(--secondary-border);
+        color: var(--tertiary-font);
+    }
+    .topic-map .buttons .btn:hover {
+        background-color: var(--alt-accent);
+        color: var(--secondary-font);
     }
     .topic-body .topic-meta-data, .topic-body .cooked {
         padding: 0 0 0.25em 13px;
