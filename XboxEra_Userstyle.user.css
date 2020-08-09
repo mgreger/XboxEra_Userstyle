@@ -152,7 +152,7 @@
          .alert.alert-info.clickable {
              margin: 0px;
          }
-         .show-more.has-topics .alert.clickable span {
+         a.alert.alert-info.clickable span {
             margin: auto;
          }
         .topic-list {
