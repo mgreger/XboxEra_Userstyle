@@ -15,7 +15,7 @@ Three custom options available:
 ## Installation
 [![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-285959.svg)](https://raw.githubusercontent.com/mgreger/XboxEra_Userstyle/master/XboxEra_Userstyle.user.css)
 
-If you do not have Stylish, you can install it below for the following browsers:
+If you do not have Stylus, you can install it below for the following browsers:
 
 Stylus for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/), [Chromium](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) or [Opera](https://addons.opera.com/en-gb/extensions/details/stylus/).
 ## Preview
