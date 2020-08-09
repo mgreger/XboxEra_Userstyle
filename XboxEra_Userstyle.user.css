@@ -4,7 +4,7 @@
 @homepageURL    https://github.com/mgreger/XboxEra_Userstyle
 @supportURL     https://github.com/mgreger/XboxEra_Userstyle/issues
 @updateURL      https://raw.githubusercontent.com/mgreger/XboxEra_Userstyle/master/XboxEra_Userstyle.user.css
-@version        1.0.3
+@version        1.0.4
 @description    A custom theme for the XboxEra forums.
 @author         mgreger
 @license        CC0-1.0
@@ -45,6 +45,9 @@
              .category-title-header.category-banner-gaming,
              .category-title-header.category-banner-user-guides {
                 display: none;
+             }
+             .category-navigation {
+                margin-top:50px;
              }`
 }
 @var select hideThreadImage "Thread Preview Image" {
