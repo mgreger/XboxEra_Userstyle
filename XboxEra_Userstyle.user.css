@@ -4,7 +4,7 @@
 @homepageURL    https://github.com/mgreger/XboxEra_Userstyle
 @supportURL     https://github.com/mgreger/XboxEra_Userstyle/issues
 @updateURL      https://raw.githubusercontent.com/mgreger/XboxEra_Userstyle/master/XboxEra_Userstyle.user.css
-@version        1.0.9
+@version        1.1.0
 @description    A custom theme for the XboxEra forums.
 @author         mgreger
 @license        CC0-1.0
@@ -152,6 +152,9 @@
          .alert.alert-info.clickable {
              margin: 0px;
          }
+         .show-more.has-topics .alert.clickable span {
+            margin: auto;
+         }
         .topic-list {
             margin: 0px 0px 10px; 
         }
@@ -254,6 +257,7 @@
     .alert.alert-info {
         background: var(--primary-background) !important;
         border-left: 3px solid var(--primary-accent);
+        border-right: 3px solid var(--primary-accent);
     }
     /*New thread/post box*/
     .composer-popup {
