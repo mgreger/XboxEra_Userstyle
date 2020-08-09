@@ -4,17 +4,18 @@
 @homepageURL    https://github.com/mgreger/XboxEra_Userstyle
 @supportURL     https://github.com/mgreger/XboxEra_Userstyle/issues
 @updateURL      https://raw.githubusercontent.com/mgreger/XboxEra_Userstyle/master/XboxEra_Userstyle.user.css
-@version        1.1.4
+@version        1.1.5
 @description    A custom theme for the XboxEra forums.
 @author         mgreger
 @license        CC0-1.0
 @preprocessor   uso
 
 @var select theme "Theme" {
-    "Dark*": `:root {
+     "Dark*": `:root {
         --site-background: #0f1013;
         --header-background: #252628;
         --primary-accent: #2ca148;
+        --secondary-accent: #908c8c;
         --primary-border: #444444;
         --secondary-border: #312f2f;
         --primary-background: #222222;
@@ -28,11 +29,14 @@
         --secondary-font: #999999;
         --tertiary-font: #707070;
         --alt-font: #dbdada; 
+        --hover-font: #333333;
+        --btn-color: #a5a3a3;
     }`,
     "Light": `:root {
         --site-background: #EEEEEE;
         --header-background: #252628;
         --primary-accent: #2ca148;
+        --secondary-accent: #919191;
         --primary-border: #d6d4d4;
         --secondary-border: #e9e9e9;
         --primary-background: #FBFBFB;
@@ -46,6 +50,8 @@
         --secondary-font: #222222;
         --tertiary-font: #919191;
         --alt-font: #222222; 
+        --hover-font: #f8f7f7;
+        --btn-color: #646464;
     }`
 }
 @var select hideBanners "Forum Banners" {
@@ -96,6 +102,20 @@
     }
     .topic-list .main-link a.title:hover {
         color: var(--primary-accent);
+    }
+    .btn {
+        background-color: var(--alt-accent);
+        color: var(--alt-font);
+    }
+    .discourse-no-touch .btn:hover, .discourse-no-touch .btn.btn-hover {
+        background-color: var(--secondary-accent);
+        color: var(--hover-font);
+    }
+    .d-icon.d-icon-d-tracking, .d-icon.d-icon-d-watching {
+        color: var(--primary-accent);
+    }
+    .btn .d-icon {
+        color: var(--btn-color);
     }
     @media (max-width: 850px) {
         td.main-link.clearfix {
