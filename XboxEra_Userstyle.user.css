@@ -4,7 +4,7 @@
 @homepageURL    https://github.com/mgreger/XboxEra_Userstyle
 @supportURL     https://github.com/mgreger/XboxEra_Userstyle/issues
 @updateURL      https://raw.githubusercontent.com/mgreger/XboxEra_Userstyle/master/XboxEra_Userstyle.user.css
-@version        1.0.1
+@version        1.0.2
 @description    A custom theme for the XboxEra forums.
 @author         mgreger
 @license        CC0-1.0
@@ -343,6 +343,9 @@
     .moderator .regular>.cooked {
         background-color: var(--primary-accent);
         color: #FFF;
+    }
+    .moderator .regular>.cooked .quote {
+        color: var(--primary-font) !important;
     }
     #reply-control .d-editor-preview img:not(.thumbnail), .cooked img:not(.thumbnail) {
         max-width: unset;
