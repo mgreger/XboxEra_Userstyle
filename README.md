@@ -8,7 +8,10 @@ A custom theme for the XboxEra forums.
 Make sure the default forum theme is set to whichever custom option I provide (Both site and custom theme set to Light or Dark. Do not mix them.)
 ## Updates
 ### 08/08/2020
-* 1.0.0 is live!
+Three custom options available:
+* Dark/Light custom theme.
+* Show/Hide forum banner images.
+* Show/Hide thread preview images.
 
 ## Preview
 ![XboxEra Preview](https://raw.githubusercontent.com/mgreger/XboxEra_Userstyle/master/Images/XboxEra-preview.png)
