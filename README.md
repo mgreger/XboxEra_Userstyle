@@ -21,5 +21,5 @@ Stylus for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/), [
 ## Preview
 ![XboxEra Preview](https://raw.githubusercontent.com/mgreger/XboxEra_Userstyle/master/Images/XboxEra-preview.png)
 ![XboxEra Preview 2](https://raw.githubusercontent.com/mgreger/XboxEra_Userstyle/master/Images/XboxEra-preview-2.png)
-![XboxEra Preview 3](https://raw.githubusercontent.com/mgreger/XboxEra_Userstyle/master/Images/XboxEra-preview-3.png)
+![XboxEra Preview 3-1](https://raw.githubusercontent.com/mgreger/XboxEra_Userstyle/master/Images/XboxEra-preview-3-1.png)
 ![XboxEra Preview 4](https://raw.githubusercontent.com/mgreger/XboxEra_Userstyle/master/Images/XboxEra-preview-4.png)
