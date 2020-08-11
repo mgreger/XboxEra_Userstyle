@@ -4,7 +4,7 @@
 @homepageURL    https://github.com/mgreger/XboxEra_Userstyle
 @supportURL     https://github.com/mgreger/XboxEra_Userstyle/issues
 @updateURL      https://raw.githubusercontent.com/mgreger/XboxEra_Userstyle/master/XboxEra_Userstyle.user.css
-@version        1.2.6
+@version        1.2.7
 @description    A custom theme for the XboxEra forums.
 @author         mgreger
 @license        CC0-1.0
@@ -280,6 +280,9 @@
     .select-kit.combo-box.mini-tag-chooser .selected-tags .selected-tag {
         background-color: var(--alt-accent);
     }
+    .select-kit.combo-box.mini-tag-chooser .selected-tags {
+        border-bottom: 1px solid var(--alt-accent); 
+    }
     /*Pinned topic excerpt*/
     .topic-excerpt {
         display: none;
@@ -314,6 +317,9 @@
     }
     #reply-control .reply-to {
         color: var(--btn-color);
+    }
+    #reply-control .mini-tag-chooser {
+        background-color: var(--tertiary-background);
     }
     .d-editor-button-bar {
         border-bottom: 1px solid var(--alt-accent);
