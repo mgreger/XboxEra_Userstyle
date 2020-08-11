@@ -4,7 +4,7 @@
 @homepageURL    https://github.com/mgreger/XboxEra_Userstyle
 @supportURL     https://github.com/mgreger/XboxEra_Userstyle/issues
 @updateURL      https://raw.githubusercontent.com/mgreger/XboxEra_Userstyle/master/XboxEra_Userstyle.user.css
-@version        1.2.1
+@version        1.2.2
 @description    A custom theme for the XboxEra forums.
 @author         mgreger
 @license        CC0-1.0
@@ -382,6 +382,10 @@
     .timeline-container .topic-timeline .start-date, 
     .timeline-container .topic-timeline .now-date {
         color: var( --secondary-font);
+    }
+    .badge-notification.clicks {
+        background-color: var(--alt-accent);
+        color: var(--secondary-font);
     }
     .meta {
         background-color: var(--primary-highlight);
