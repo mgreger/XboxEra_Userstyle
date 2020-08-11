@@ -4,7 +4,7 @@
 @homepageURL    https://github.com/mgreger/XboxEra_Userstyle
 @supportURL     https://github.com/mgreger/XboxEra_Userstyle/issues
 @updateURL      https://raw.githubusercontent.com/mgreger/XboxEra_Userstyle/master/XboxEra_Userstyle.user.css
-@version        1.2.8
+@version        1.2.9
 @description    A custom theme for the XboxEra forums.
 @author         mgreger
 @license        CC0-1.0
@@ -32,6 +32,7 @@
         --alt-font: #dbdada; 
         --hover-font: #333333;
         --btn-color: #a5a3a3;
+        --btn-hover: #217936;
         --scroll-track: #1c1e1f;
         --scroll-handle: #2a2c2e;
         --scroll-hover: #2f343d;
@@ -57,6 +58,7 @@
         --alt-font: #222222; 
         --hover-font: #f8f7f7;
         --btn-color: #646464;
+        --btn-hover: #217936;
         --scroll-track: #e4e8ea;
         --scroll-handle: #a8abaf;
         --scroll-hover: #919295;
@@ -120,6 +122,17 @@
     }
     .btn .d-icon {
         color: var(--btn-color);
+    }
+    .btn-primary {
+        background-color: var(--primary-accent);
+        color: var(--hover-font);
+    }
+    .btn-primary .d-icon {
+        color: var(--hover-font);
+    }
+    .discourse-no-touch .btn-primary:hover, .discourse-no-touch .btn-primary.btn-hover {
+        background-color: var(--btn-hover);
+        color: var(--hover-font);
     }
     @media (max-width: 850px) {
         td.main-link.clearfix {
