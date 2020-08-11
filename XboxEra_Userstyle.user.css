@@ -4,7 +4,7 @@
 @homepageURL    https://github.com/mgreger/XboxEra_Userstyle
 @supportURL     https://github.com/mgreger/XboxEra_Userstyle/issues
 @updateURL      https://raw.githubusercontent.com/mgreger/XboxEra_Userstyle/master/XboxEra_Userstyle.user.css
-@version        1.2.5
+@version        1.2.6
 @description    A custom theme for the XboxEra forums.
 @author         mgreger
 @license        CC0-1.0
@@ -273,6 +273,13 @@
     .select-kit.dropdown-select-box.toolbar-popup-menu-options .select-kit-row.is-highlighted, .select-kit.dropdown-select-box.toolbar-popup-menu-options .select-kit-row.is-selected, .select-kit.dropdown-select-box.toolbar-popup-menu-options .select-kit-row:hover {
         background-color: var(--primary-highlight);
     }
+    .select-kit .select-kit-row .discourse-tag, .select-kit .select-kit-row .discourse-tag-count,
+    .discourse-tag.simple, .discourse-tag.simple:visited, .discourse-tag.simple:hover {
+        color: var(--primary-font);
+    }
+    .select-kit.combo-box.mini-tag-chooser .selected-tags .selected-tag {
+        background-color: var(--alt-accent);
+    }
     /*Pinned topic excerpt*/
     .topic-excerpt {
         display: none;
@@ -308,6 +315,18 @@
     #reply-control .reply-to {
         color: var(--btn-color);
     }
+    .d-editor-button-bar {
+        border-bottom: 1px solid var(--alt-accent);
+    }
+    .select-kit .select-kit-body,
+    .select-kit .select-kit-collection,
+    .select-kit .no-content, .select-kit .is-loading {
+        background-color: var(--tertiary-background);
+    }
+    .select-kit.single-select .select-kit-filter.is-expanded {
+        border-top: 1px solid var(--alt-accent);
+        border-bottom: 1px solid var(--alt-accent);
+    }
     .select-kit.dropdown-select-box.composer-actions .select-kit-header {
         border: 1px solid var(--alt-accent);
     }
@@ -331,6 +350,13 @@
         margin-top: 0;
         padding-top: 10px;
         padding-left: 10px;
+    }
+    .badge-wrapper.bullet span.badge-category {
+        color: var(--btn-color);
+    }
+    .select-kit.combo-box.category-chooser .select-kit-row .topic-count,
+    .select-kit.combo-box.category-chooser .select-kit-row .category-desc{
+        color: var(--secondary-font);
     }
     /*THREAD VIEW*/
     #topic-title h1 a {
