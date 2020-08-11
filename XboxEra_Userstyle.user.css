@@ -4,7 +4,7 @@
 @homepageURL    https://github.com/mgreger/XboxEra_Userstyle
 @supportURL     https://github.com/mgreger/XboxEra_Userstyle/issues
 @updateURL      https://raw.githubusercontent.com/mgreger/XboxEra_Userstyle/master/XboxEra_Userstyle.user.css
-@version        1.2.2
+@version        1.2.3
 @description    A custom theme for the XboxEra forums.
 @author         mgreger
 @license        CC0-1.0
@@ -20,6 +20,7 @@
         --secondary-border: #312f2f;
         --primary-background: #222222;
         --secondary-background: #282828;
+        --tertiary-background: #333333;
         --primary-highlight: #1b1b1b;
         --secondary-highlight: #282727;
         --tertiary-highlight: #464646;
@@ -41,10 +42,11 @@
         --secondary-border: #e9e9e9;
         --primary-background: #FBFBFB;
         --secondary-background: #FFFFFF;
+        --tertiary-background: #f8f7f7;
         --primary-highlight: #f2f1f1;
         --secondary-highlight: #f8f8f8;
         --tertiary-highlight: #f2f1f1;
-        --alt-accent: #e9e9e9;
+        --alt-accent: #d8d3d3;
         --primary-topic: #FFFFFF;
         --primary-font: #222222;
         --secondary-font: #222222;
@@ -386,6 +388,15 @@
     .badge-notification.clicks {
         background-color: var(--alt-accent);
         color: var(--secondary-font);
+    }
+    #share-link {
+        background-color: var(--tertiary-background);
+    }
+    #share-link .title .date {
+        color: var(--secondary-font);
+    }
+    .btn-flat.close .d-icon {
+        color: var(--btn-color);
     }
     .meta {
         background-color: var(--primary-highlight);
