@@ -32,6 +32,9 @@
         --alt-font: #dbdada; 
         --hover-font: #333333;
         --btn-color: #a5a3a3;
+        --scroll-track: #1c1e1f;
+        --scroll-handle: #2a2c2e;
+        --scroll-hover: #2f343d;
     }`,
     "Light": `:root {
         --site-background: #EEEEEE;
@@ -54,6 +57,9 @@
         --alt-font: #222222; 
         --hover-font: #f8f7f7;
         --btn-color: #646464;
+        --scroll-track: #e4e8ea;
+        --scroll-handle: #a8abaf;
+        --scroll-hover: #919295;
     }`
 }
 @var select hideBanners "Forum Banners" {
@@ -382,7 +388,8 @@
         border: 0;
     }
     .timeline-container .topic-timeline .start-date, 
-    .timeline-container .topic-timeline .now-date {
+    .timeline-container .topic-timeline .now-date,
+    .timeline-container .topic-timeline .timeline-ago {
         color: var( --secondary-font);
     }
     .badge-notification.clicks {
