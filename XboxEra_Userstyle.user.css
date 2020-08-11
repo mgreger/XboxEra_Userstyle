@@ -4,7 +4,7 @@
 @homepageURL    https://github.com/mgreger/XboxEra_Userstyle
 @supportURL     https://github.com/mgreger/XboxEra_Userstyle/issues
 @updateURL      https://raw.githubusercontent.com/mgreger/XboxEra_Userstyle/master/XboxEra_Userstyle.user.css
-@version        1.2.3
+@version        1.2.4
 @description    A custom theme for the XboxEra forums.
 @author         mgreger
 @license        CC0-1.0
@@ -626,14 +626,14 @@
     }
     /* Track */
     ::-webkit-scrollbar-track {
-      background: rgb(28, 30, 31); 
+      background: var(--scroll-track); 
     }
     /* Handle */
     ::-webkit-scrollbar-thumb {
-      background: #2a2c2e; 
+      background: var(--scroll-handle); 
     }
     /* Handle on hover */
     ::-webkit-scrollbar-thumb:hover {
-      background: rgb(47, 52, 61); 
+      background: var(--scroll-hover); 
     }
 }
