@@ -4,7 +4,7 @@
 @homepageURL    https://github.com/mgreger/XboxEra_Userstyle
 @supportURL     https://github.com/mgreger/XboxEra_Userstyle/issues
 @updateURL      https://raw.githubusercontent.com/mgreger/XboxEra_Userstyle/master/XboxEra_Userstyle.user.css
-@version        1.3.0
+@version        1.3.1
 @description    A custom theme for the XboxEra forums.
 @author         mgreger
 @license        CC0-1.0
@@ -16,11 +16,11 @@
         --header-background: #252628;
         --primary-accent: #2ca148;
         --secondary-accent: #908c8c;
-        --primary-border: #444444;
+        --primary-border: #333333;
         --secondary-border: #312f2f;
         --primary-background: #222222;
         --secondary-background: #282828;
-        --tertiary-background: #333333;
+        --tertiary-background: #282828;
         --primary-highlight: #1b1b1b;
         --secondary-highlight: #282727;
         --tertiary-highlight: #464646;
@@ -30,7 +30,7 @@
         --secondary-font: #999999;
         --tertiary-font: #707070;
         --alt-font: #dbdada; 
-        --hover-font: #333333;
+        --hover-font: #282828;
         --btn-color: #a5a3a3;
         --btn-hover: #217936;
         --scroll-track: #1c1e1f;
@@ -367,9 +367,10 @@
     .fullscreen-composer #reply-control.fullscreen .reply-to {
         border: 0;
     }
+    /*
     .d-editor-preview-wrapper {
         border: 1px solid var(--primary-border);
-    }
+    }*/
     .fullscreen-composer #reply-control.fullscreen .d-editor-preview-wrapper, .d-editor-preview {
         background-color:var(--primary-background);
         margin-top: 0;
