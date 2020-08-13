@@ -4,7 +4,7 @@
 @homepageURL    https://github.com/mgreger/XboxEra_Userstyle
 @supportURL     https://github.com/mgreger/XboxEra_Userstyle/issues
 @updateURL      https://raw.githubusercontent.com/mgreger/XboxEra_Userstyle/master/XboxEra_Userstyle.user.css
-@version        1.3.2
+@version        1.3.3
 @description    A custom theme for the XboxEra forums.
 @author         mgreger
 @license        CC0-1.0
@@ -396,6 +396,7 @@
     }
     .post-notice {
         max-width: 100%;
+        border-top: 1px solid var(--primary-accent);
         background-color: var(--primary-accent);
         color: #FFFFFF;
     }
