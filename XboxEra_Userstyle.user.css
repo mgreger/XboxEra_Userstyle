@@ -4,7 +4,7 @@
 @homepageURL    https://github.com/mgreger/XboxEra_Userstyle
 @supportURL     https://github.com/mgreger/XboxEra_Userstyle/issues
 @updateURL      https://raw.githubusercontent.com/mgreger/XboxEra_Userstyle/master/XboxEra_Userstyle.user.css
-@version        1.3.4
+@version        1.3.5
 @description    A custom theme for the XboxEra forums.
 @author         mgreger
 @license        CC0-1.0
@@ -112,6 +112,10 @@
     .btn {
         background-color: var(--alt-accent);
         color: var(--alt-font);
+    }
+    .d-editor-button-bar .btn, .d-editor-button-bar .btn-default {
+        background-color: transparent;
+        color: var(--primary-font);
     }
     .discourse-no-touch .btn:hover, .discourse-no-touch .btn.btn-hover {
         background-color: var(--secondary-accent);
@@ -324,6 +328,15 @@
         border-right: 3px solid var(--primary-accent);
     }
     /*New thread/post box*/
+    .bootbox.modal {
+        background-color: var(--tertiary-background);
+    }
+    .btn-danger[href] {
+        color: var(--primary-font);
+    }
+    .modal-footer {
+        border-top: 1px solid var(--primary-border);
+    }
     select, textarea {
          color: var(--primary-font);
     }
@@ -560,7 +573,7 @@
         margin-right: 10px;
     }
     .modal-inner-container {
-        background-color: var(--primary-background);
+        background-color: var(--tertiary-background);
     }
     .share-and-invite.modal .share.modal-panel .body .topic-share-url {
         border: 1px solid var(--primary-border);
