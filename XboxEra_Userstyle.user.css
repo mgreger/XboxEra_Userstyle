@@ -4,7 +4,7 @@
 @homepageURL    https://github.com/mgreger/XboxEra_Userstyle
 @supportURL     https://github.com/mgreger/XboxEra_Userstyle/issues
 @updateURL      https://raw.githubusercontent.com/mgreger/XboxEra_Userstyle/master/XboxEra_Userstyle.user.css
-@version        1.3.5
+@version        1.3.6
 @description    A custom theme for the XboxEra forums.
 @author         mgreger
 @license        CC0-1.0
@@ -397,6 +397,20 @@
     .select-kit.combo-box.category-chooser .select-kit-row .category-desc{
         color: var(--secondary-font);
     }
+    .emoji-picker .section-header .title {
+        color: var(--primary-font);
+    }
+    .emoji-picker {
+        background-color: var(--tertiary-background);
+        color: var(--primary-font);
+    }
+    .emoji-picker .filter input {
+        background-color: var(--tertiary-background);
+        color: var(--primary-font);
+    }
+    .emoji-picker .categories-column {
+        border-right: 1px solid var(--primary-border);
+    }
     /*THREAD VIEW*/
     #topic-title h1 a {
         color: var(--alt-font);
@@ -665,7 +679,7 @@
     }
     input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"] {
         border: 1px solid var(--primary-border);
-        background-color: var(--tertiary-color);
+        background-color: var(--tertiary-background);
         color: var(--primary-font);
     }
     .pref-auth-tokens .row {
