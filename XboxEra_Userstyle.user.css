@@ -4,7 +4,7 @@
 @homepageURL    https://github.com/mgreger/XboxEra_Userstyle
 @supportURL     https://github.com/mgreger/XboxEra_Userstyle/issues
 @updateURL      https://raw.githubusercontent.com/mgreger/XboxEra_Userstyle/master/XboxEra_Userstyle.user.css
-@version        1.4.0
+@version        1.4.1
 @description    A custom theme for the XboxEra forums.
 @author         mgreger
 @license        CC0-1.0
@@ -140,6 +140,18 @@
     }
     .discourse-no-touch .btn-primary:hover .d-icon, .discourse-no-touch .btn-primary.btn-hover .d-icon {
         color: var(--hover-font);
+    }
+    #banner {
+        max-width:unset;
+        width: 100%;
+        padding:unset;
+    }
+    #banner-content {
+        padding: 0.5em 1em;
+    }
+    #banner .close {
+        padding-left: unset;
+        padding: 5px 5px 5px 5px;
     }
     @media (max-width: 850px) {
         td.main-link.clearfix {
