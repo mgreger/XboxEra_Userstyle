@@ -7,6 +7,8 @@ A custom theme for the XboxEra forums.
 
 Make sure the default forum theme is set to whichever custom option I provide (Both site and custom theme set to Light or Dark. Do not mix them.)
 ## Updates
+### 10/26/2020
+Minor fix to banner widths.
 ### 08/25/2020
 Fixed an issue related to post widths on posts with a table of contents.
 ### 08/08/2020
