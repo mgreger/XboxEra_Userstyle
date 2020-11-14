@@ -4,7 +4,7 @@
 @homepageURL    https://github.com/mgreger/XboxEra_Userstyle
 @supportURL     https://github.com/mgreger/XboxEra_Userstyle/issues
 @updateURL      https://raw.githubusercontent.com/mgreger/XboxEra_Userstyle/master/XboxEra_Userstyle.user.css
-@version        1.4.1
+@version        1.4.2
 @description    A custom theme for the XboxEra forums.
 @author         mgreger
 @license        CC0-1.0
@@ -443,6 +443,9 @@
     }
     .post-notice .d-icon {
         color: #FFFFFF;
+    }
+    .container.posts>.row {
+        max-width: calc(73vw - 16px);
     }
     .topic-body {
         /*width: calc(99% - 47px);*/ 
