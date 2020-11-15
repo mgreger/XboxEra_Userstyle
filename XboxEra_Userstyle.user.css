@@ -4,7 +4,7 @@
 @homepageURL    https://github.com/mgreger/XboxEra_Userstyle
 @supportURL     https://github.com/mgreger/XboxEra_Userstyle/issues
 @updateURL      https://raw.githubusercontent.com/mgreger/XboxEra_Userstyle/master/XboxEra_Userstyle.user.css
-@version        1.4.2
+@version        1.4.3
 @description    A custom theme for the XboxEra forums.
 @author         mgreger
 @license        CC0-1.0
@@ -160,6 +160,11 @@
         .topic-list td.posters a.latest {
             width: unset !important; 
         }
+    }
+    @media screen and (min-width: 925px) {
+         .container.posts .topic-navigation {
+              max-width: 110px;
+         }
     }
     @media (max-width: 650px) {
         .top-section.stats-section, .top-sub-section {
